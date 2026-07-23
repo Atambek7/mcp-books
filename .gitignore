@@ -2,3 +2,17 @@ node_modules/
 dist/
 .env
 *.log
+
+# Books & Library files
+*.pdf
+*.epub
+*.fb2
+*.mobi
+*.azw
+*.azw3
+*.djvu
+*.djv
+HUMAN/
+books/
+library/
+

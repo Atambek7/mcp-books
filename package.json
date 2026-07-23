@@ -1,32 +1,20 @@
 {
-  "name": "book-mcp",
-  "version": "1.0.0",
-  "description": "Book MCP Server",
-  "type": "module",
+  "name": "mcp-books-flibusta",
+  "version": "1.2.0",
+  "description": "MCP server for Flibusta library integration with download and PDF conversion",
   "main": "dist/index.js",
+  "type": "module",
   "scripts": {
-    "dev": "tsx src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js"
   },
-  "keywords": [
-    "mcp",
-    "books",
-    "typescript"
-  ],
-  "author": "",
-  "license": "MIT",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.29.0",
-    "axios": "^1.18.1",
-    "cheerio": "^1.2.0",
-    "dotenv": "^17.4.2",
-    "fs-extra": "^11.3.6",
-    "zod": "^4.4.3"
+    "@modelcontextprotocol/sdk": "^0.6.0",
+    "axios": "^1.6.0",
+    "fast-xml-parser": "^4.3.0"
   },
   "devDependencies": {
-    "@types/node": "^24.3.0",
-    "tsx": "^4.23.1",
-    "typescript": "^5.9.2"
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
   }
 }
